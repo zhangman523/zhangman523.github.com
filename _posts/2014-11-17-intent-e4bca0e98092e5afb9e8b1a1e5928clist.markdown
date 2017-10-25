@@ -1,0 +1,25 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-11-17 13:50:34+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=73
+slug: intent-%e4%bc%a0%e9%80%92%e5%af%b9%e8%b1%a1%e5%92%8clist
+title: Intent 传递对象和List
+wordpress_id: 73
+categories:
+- Android 笔记
+---
+
+Intent 传递对象
+
+intent.putExtra("key",(Serializable)Object);
+
+Object 必须要实现Serializable借口不然会报错
+
+获取对象方法
+
+Object = (Object)getIntent().getSerializableExtra("key");
+
+Intent传递List<Object>
+方法更上面一样

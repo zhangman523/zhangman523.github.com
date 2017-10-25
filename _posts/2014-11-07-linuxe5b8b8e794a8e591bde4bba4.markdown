@@ -1,0 +1,95 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-11-07 02:48:39+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=47
+slug: linux%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4
+title: Linux常用命令
+wordpress_id: 47
+categories:
+- Linux
+---
+
+mount/unmount     挂载或卸载设备
+
+more    1.txt     分页查看1.txt文件
+head     1.txt     查看1.txt文件的开始10行
+tail         1.txt    查看1.txt的末尾10行
+less        1.txt     分页查看1.txt文件(相比more命令 less命令可以通过上下键来翻页)
+top /htop    top是系统自带的查看系统进程    而htop则学要用户自己安装功能比top 强大
+ps 查看用户进程
+kill -9  <PID>    强制关闭指定进程号的进程
+
+free     查看当前内存使用情况
+uptime    查看当前系统负载
+
+su 切换到root用户
+用户管理
+
+/etc/passwd        用户信息文件   (普通用户可看)
+
+/etc/group         用户组信息文件   (普通用户可看)
+
+/etc/shadow        用户密码信息文件   (root用户可看)
+
+/etc/gshadow       用户组密码信息文件    (root用户可看)
+
+more /etc/passwd    查看用户信息文件
+
+/bin/su -          切换到root用户
+
+more /etc/shadow    用root用户身份查看用户信息文件
+
+关于用户切换
+
+/bin/su    披马甲的方式切换
+
+/bin/su  -    换身份换环境
+
+/bin/su  -  <用户名>      root用户可以切换成任何用户
+
+
+
+用户的增加修改删除都需要root权限，修改他人密码需要root权限
+
+
+
+/usr/sbin/useradd       添加用户信息
+
+/usr/sbin/usermod       修改用户信息
+
+/usr/sbin/userdel        删除用户信息
+
+/usr/bin/passwd         修改用户密码信息
+
+mkdir    创建目录
+touch  filename    创建文本文件
+file    filename    查看文件名为filename文件的信息
+
+find . -name  filename    表示查找当前目录包括子目录下文件名为filename的文件
+
+命令查找工具
+
+which
+
+whereis
+
+whatis
+
+
+
+归档及压缩工具
+
+tar         归档打包工具，也是Linux下的备份工具
+
+gzip        解压缩软件    gz
+
+bzip2       另一种算法的解压缩软件   bz2
+
+zip         标准zip算法的压缩软件    zip
+
+unzip       标准zip算法的解压软件
+
+chmod    修改文件或目录权限命令
+df -lh    查询存储信息

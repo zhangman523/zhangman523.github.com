@@ -1,0 +1,14 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-11-07 02:52:26+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=51
+slug: c%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0
+title: C++学习笔记
+wordpress_id: 51
+categories:
+- C/C++学习
+---
+
+2013年8月份开始接触C++，现在已经忘记了许多。当初在图书馆里借来的C++ Primer Plus看了大部分。了解了C++的基础。现在想重新拾起来看看。像我这样的Java语言出生的，应该多了解下 其他语言。最近在learncpp网站学习。[http://www.learncpp.com](http://www.learncpp.com)

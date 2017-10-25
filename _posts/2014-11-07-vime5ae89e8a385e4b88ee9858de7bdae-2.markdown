@@ -1,0 +1,75 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-11-07 02:49:30+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=49
+slug: vim%e5%ae%89%e8%a3%85%e4%b8%8e%e9%85%8d%e7%bd%ae-2
+title: Vim安装与配置
+wordpress_id: 49
+categories:
+- Linux
+---
+
+## 1\. Vim的安装
+
+Linux版本下，Vim官网推荐使用Mercurial获取Vim的最新版本（当然也可以在线安装,ubuntu下使用sudo apt-get install vim 即可，等待安装完成)
+Mercurial是一个跨平台分布式版本控制软件，而且是用python写的，当然也有包含一个用C实现的二进制比较工具
+### (1)首先安装Mercuial
+{% highlight shell %}
+sudo apt-get install Mercuial
+{% endhighlight %}
+
+等待安装完成。。。。
+### (2)获取Vim的最新版本
+{% highlight shell %}
+hg clone https://vim.googlecode.com/hg/ vim
+{% endhighlight %}
+获得Vim的最新版本后，进入vim目录查看获取的vim版本(打开vim目录下的REDEME.txt文件，现在最新的vim是7.4)如果你开始获取的不是最先版本，可以通过
+{% highlight shell %}
+hg pull
+hg update
+{% endhighlight %}
+更新到最新版本
+    
+
+
+### (3)编译Vim源码
+{% highlight shell %}
+cd src
+make distclean
+{% endhighlight %}
+
+如果有依赖问题，则会报错，我这里缺少ncurses-dev库
+{% highlight shell %}
+sudo apt-get install ncurses-dev
+{% endhighlight %}
+
+解决依赖问题后就可以继续进行下一步了
+
+{% highlight shell %}
+./configure -prefix=$HOME --enable-gui=auto 
+--enable-csope --enable-pythoninterp --enable-fontset
+{% endhighlight %}
+
+然后就 
+{% highlight shell %}
+make -j2
+{% endhighlight %}
+如果你的cpu是4核的话就可以
+{% highlight shell %}
+make -j4 
+{% endhighlight %}
+这个方法特暴力 cpu抢占
+
+当然我双核的cpu 所以-j2
+
+然后 
+{% highlight shell %}
+make install
+{% endhighlight %}
+
+等待安装完成
+
+## 2\. vim配置 
+[ http://blog.csdn.net/xy365/article/details/7239554](http://blog.csdn.net/xy365/article/details/7239554)

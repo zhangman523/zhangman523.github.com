@@ -1,0 +1,66 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-11-13 08:32:31+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=56
+slug: c%e5%a4%b4%e6%96%87%e4%bb%b6%e8%81%94%e5%90%88%e7%bc%96%e8%af%91
+title: C++头文件联合编译
+wordpress_id: 56
+categories:
+- C/C++学习
+---
+
+**main.cpp**
+
+    
+{% highlight c++ %}
+#include <iostream>
+#include "add.h" // this brings in the declaration for add()
+int main()
+{
+   using namespace std;
+   cout << "The sum of 3 and 4 is " << add(3,4) << endl;
+   return 0;
+}
+{% endhighlight %}
+
+
+**add.cpp**
+
+{% highlight c++ %}
+int add(int x,int y)
+{
+    return x+y;
+}
+{% endhighlight %}
+
+**add.h**
+
+{% highlight c++ %}
+
+#ifndef ADD_H
+#define ADD_H
+    
+int add(int x,int y); //function prototype for add.h
+    
+#endif
+{% endhighlight %}
+
+
+在Microsoft Visual C++ 2010下
+IDE下编译自动识别，编译不会出错
+在Linux下
+直接编译main.cpp是会报
+{% highlight c++ %}
+g++ -o main main.cpp
+/tmp/ccVwA0IL.o: In function `main':
+main.cpp:(.text+0x1a): undefined reference to `add(int, int)'
+collect2: ld 返回 1
+{% endhighlight %}
+
+解决方法
+{% highlight c++ %}
+g++ -o main add.cpp main.cpp
+{% endhighlight %}
+编译通过

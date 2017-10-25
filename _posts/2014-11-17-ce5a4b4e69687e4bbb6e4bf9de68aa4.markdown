@@ -1,0 +1,53 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-11-17 13:48:47+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=62
+slug: c%e5%a4%b4%e6%96%87%e4%bb%b6%e4%bf%9d%e6%8a%a4
+title: C++头文件保护
+wordpress_id: 62
+categories:
+- C/C++学习
+---
+
+**问题？？？？**
+
+add.h
+{% highlight c++ %}
+#include "mymath.h"
+int add(int x,int y);
+{% endhighlight %}
+
+subtract.h
+
+{% highlight c++ %}   
+#include "mymath.h"
+int subtract(int x,int y);
+{% endhighlight %}
+
+main.cpp
+
+{% highlight c++ %}
+#include "add.h"
+#include "subtract.h"
+{% endhighlight %}
+
+当我们有add.h，它带来了两个mymath.h和原型的add（）。
+
+当我们有subtract.h，它带来两个mymath.h（再次）和原型减去（）。
+
+因此，mymath.h的所有内容将被包含了两次，这将导致编译器报错。
+
+解决方法：
+
+	Header guard 直译是头文件保护
+
+	在定义头文件是使用 头文件保护
+例：
+{% highlight c++ %}
+#ifndef SOME_UNIQUE_NAME_HERE
+#define SOME_UNIQUE_NAME_HERE
+// your declarations here
+#endif
+{% endhighlight %}

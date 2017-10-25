@@ -1,0 +1,50 @@
+---
+author: zhangman1123
+comments: true
+date: 2015-05-28 06:24:21+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=132
+slug: android-studio-v4%e5%8c%85%e5%86%b2%e7%aa%81%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88
+title: android studio v4包冲突解决方案
+wordpress_id: 132
+categories:
+- Android 笔记
+---
+
+在android studio 中使用第三份jar包时可能会有jar重复的冲突，
+
+第一种，app工程和library中都有重复的jar包下面这个链接有解决方案
+
+[http://blog.csdn.net/hyr83960944/article/details/41825087](http://blog.csdn.net/hyr83960944/article/details/41825087)
+
+第二种，就是引用第三份jar包不是导入工程的
+
+就是在build.gradle 中写的 如下:
+
+{% highlight java %}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    //    compile 'com.android.support:cardview-v7:21.0.+'
+    repositories {
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    }
+    //activeandroid 数据库lib
+    compile 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
+    //友盟分析
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile project(':gallerylib')
+}
+{% endhighlight %}
+
+
+然后又实用了工程library  这里面有冲突 怎么办？
+
+google，百度了一下午，终于找到了。我的是v4包冲突了，在./build/intermediates/dex-cache/cache.xml 中找到所有关于v4的包定义全部删掉
+
+然后在把所有的lib中的v4包删掉，如果不删的话，把compile 的改为provided 也行，然后clean project
+
+Sync Project with Gradle File  在运行就ok了！
+
+

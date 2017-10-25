@@ -1,0 +1,35 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-11-07 02:41:28+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=34
+slug: '%e8%87%aa%e5%ae%9a%e4%b9%89linux%e9%85%8d%e8%89%b2%e6%96%b9%e6%a1%88'
+title: 自定义Linux配色方案
+wordpress_id: 34
+categories:
+- Linux
+---
+
+默认Linux配色方案
+![默认效果]({{ site.url }}/assets/images/2014-11-07-linux-1.png)
+
+在用户主目录下(即home目录下）编辑.bashrc文件
+{% highlight shell %}
+vim .bashrc
+{% endhighlight %}
+在文件最后一行添加
+{% highlight shell %}
+PS1="\[\e[35;1m\][\u@abc \W]\[\e[0m\]$ "
+{% endhighlight %}
+
+保存并退出。
+
+重新载入.bashrc文件
+
+{% highlight shell %}
+source .bashrc
+{% endhighlight %}
+
+效果如下：
+![修改后效果]({{ site.url }}/assets/images/2014-11-07-linux-2.png)

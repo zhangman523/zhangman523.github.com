@@ -1,0 +1,31 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-11-07 02:38:30+00:00
+layout: post
+#link: http://www.zhangman523.com/wordpress/?p=32
+slug: ssh-private-key-%e7%94%9f%e6%88%90
+title: SSH private key 生成
+wordpress_id: 32
+categories:
+- Linux
+---
+
+在当前登入用户名 主目录下
+{% highlight shell %}
+sudo ssh-keygen -t rsa
+{% endhighlight %}
+下面会有几个提示输入的，直接回车
+然后会在 `.ssh` 目录下面生成
+**id_rsa**  和 **id_rsa.pub**
+将**id-rsa** 拷贝出来
+
+下面将会用到puttygen.exe软件，上网去下载。
+
+打开 [puttygen.exe](http://www.putty.org "puttygen") 软件
+
+导入私钥 点击sava private key
+就ok了
+
+生成的 `.ppk`文件就可以用putty winscp 来登入了，不用输入密码
+

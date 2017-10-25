@@ -1,0 +1,40 @@
+---
+author: zhangman1123
+comments: true
+date: 2014-03-05 08:32:31+00:00
+layout: post
+slug: GDB 调试C/C++ 程序
+title: GDB 调试C/C++ 程序
+wordpress_id: 56
+categories:
+- C/C++学习
+---
+
+在编译的时候要加入 -g参数  启动调试
+
+gdb test(编译后的原程序)
+{% highlight c++ %}
+(gdb)  l -> list 命令的缩写  从第一行列出源码
+
+回车   ->表示重复执行上一次的命令
+
+break  lineNumbers        在lineNumbers 行设置断点
+
+break  function            在函数 function() 入口处设置断点
+
+info break     查看断点信息
+
+r ->run命令的缩写  运行程序
+
+n ->  按行依次运行   next命令的缩写
+
+c -> continue 命令的缩写   继续运行
+
+p varibles ->    print 命令的缩写   输出varibles变量的值
+
+bt ->   查看函数堆栈
+
+finish  ->退出函数
+
+q ->退出gdb
+{% endhighlight %}
