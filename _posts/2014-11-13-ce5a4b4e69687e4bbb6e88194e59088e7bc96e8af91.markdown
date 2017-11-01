@@ -6,7 +6,9 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=56
 slug: c%e5%a4%b4%e6%96%87%e4%bb%b6%e8%81%94%e5%90%88%e7%bc%96%e8%af%91
 title: C++头文件联合编译
-wordpress_id: 56
+tags:
+- C++
+- Linux
 categories:
 - C/C++学习
 ---

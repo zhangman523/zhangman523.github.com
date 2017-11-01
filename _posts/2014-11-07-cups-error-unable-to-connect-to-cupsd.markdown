@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=41
 slug: cups-error-unable-to-connect-to-cupsd
 title: 'CUPS error : Unable to connect to cupsd'
-wordpress_id: 41
+tags:
+- CUPSD
 categories:
 - Linux
 ---

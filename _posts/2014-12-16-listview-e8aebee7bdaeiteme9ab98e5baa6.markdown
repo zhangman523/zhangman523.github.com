@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=91
 slug: listview-%e8%ae%be%e7%bd%aeitem%e9%ab%98%e5%ba%a6
 title: listView 设置item高度
-wordpress_id: 91
+tags:
+- Android
 categories:
 - Android 笔记
 ---

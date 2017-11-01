@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=47
 slug: linux%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4
 title: Linux常用命令
-wordpress_id: 47
+tags:
+- Linux
 categories:
 - Linux
 ---

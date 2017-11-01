@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=138
 slug: android-spannablestring
 title: android SpannableString
-wordpress_id: 138
+tags:
+- Android
 categories:
 - Android 笔记
 ---

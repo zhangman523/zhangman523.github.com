@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=135
 slug: onnewintent%e7%9a%84%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9
 title: onNewIntent的注意事项
-wordpress_id: 135
+tags:
+- Android
 categories:
 - Android 笔记
 ---

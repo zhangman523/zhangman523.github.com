@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=34
 slug: '%e8%87%aa%e5%ae%9a%e4%b9%89linux%e9%85%8d%e8%89%b2%e6%96%b9%e6%a1%88'
 title: 自定义Linux配色方案
-wordpress_id: 34
+tags:
+- Linux
 categories:
 - Linux
 ---

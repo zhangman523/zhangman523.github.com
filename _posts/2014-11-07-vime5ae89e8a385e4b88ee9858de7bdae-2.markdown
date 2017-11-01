@@ -6,7 +6,9 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=49
 slug: vim%e5%ae%89%e8%a3%85%e4%b8%8e%e9%85%8d%e7%bd%ae-2
 title: Vim安装与配置
-wordpress_id: 49
+tags:
+- Linux
+- Vim
 categories:
 - Linux
 ---

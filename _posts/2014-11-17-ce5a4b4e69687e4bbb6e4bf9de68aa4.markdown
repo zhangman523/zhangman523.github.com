@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=62
 slug: c%e5%a4%b4%e6%96%87%e4%bb%b6%e4%bf%9d%e6%8a%a4
 title: C++头文件保护
-wordpress_id: 62
+tags:
+- C++
 categories:
 - C/C++学习
 ---

@@ -6,7 +6,9 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=126
 slug: apache-%e6%8d%a2nginx-%e7%bb%8f%e9%aa%8c
 title: apache 换nginx 经验
-wordpress_id: 126
+tags:
+- Linux
+- nginx
 categories:
 - Linux
 ---

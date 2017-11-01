@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=32
 slug: ssh-private-key-%e7%94%9f%e6%88%90
 title: SSH private key 生成
-wordpress_id: 32
+tags:
+- Linux
 categories:
 - Linux
 ---

@@ -7,6 +7,9 @@ layout: post
 slug: ubuntu-%e5%ae%89%e8%a3%85%e5%92%8c%e5%8d%b8%e8%bd%bd%e8%bd%af%e4%bb%b6
 title: ubuntu 安装和卸载软件
 wordpress_id: 28
+tags:
+- Linux
+- Ubuntu
 categories:
 - Linux
 ---

@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=65
 slug: android-proguard
 title: Android proguard
-wordpress_id: 65
+tags:
+- Android
 categories:
 - Android 笔记
 ---

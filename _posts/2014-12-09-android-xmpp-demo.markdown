@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=80
 slug: android-xmpp-demo
 title: android xmpp demo
-wordpress_id: 80
+tags:
+- Android
 categories:
 - Android 笔记
 ---

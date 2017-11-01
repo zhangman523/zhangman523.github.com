@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=75
 slug: android-%e5%9c%a8array%e4%b8%ad%e8%8e%b7%e5%8f%96%e5%9b%be%e7%89%87%e8%b5%84%e6%ba%90
 title: android 在array中获取图片资源，或String字符
-wordpress_id: 75
+tags:
+- Android
 categories:
 - Android 笔记
 ---

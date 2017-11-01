@@ -6,7 +6,9 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=39
 slug: linux-c%e4%b9%8b%e8%bf%9b%e7%a8%8b%e6%8e%a7%e5%88%b6
 title: Linux C之进程控制
-wordpress_id: 39
+tags:
+- C
+- Linux
 categories:
 - Linux C
 ---

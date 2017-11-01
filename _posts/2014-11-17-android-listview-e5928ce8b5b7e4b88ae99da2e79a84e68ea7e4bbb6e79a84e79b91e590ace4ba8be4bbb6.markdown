@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=67
 slug: android-listview-%e5%92%8c%e8%b5%b7%e4%b8%8a%e9%9d%a2%e7%9a%84%e6%8e%a7%e4%bb%b6%e7%9a%84%e7%9b%91%e5%90%ac%e4%ba%8b%e4%bb%b6
 title: android ListView 和起上面的控件的监听事件
-wordpress_id: 67
+tags:
+- Android
 categories:
 - Android 笔记
 ---

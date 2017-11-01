@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=43
 slug: svn-so-%e5%ba%93%e6%96%87%e4%bb%b6-%e6%97%a0%e6%b3%95%e6%8f%90%e4%ba%a4%e9%97%ae%e9%a2%98
 title: svn *.so 库文件 无法提交问题
-wordpress_id: 43
+tags:
+- svn
 categories:
 - Linux
 ---
@@ -14,7 +15,7 @@ categories:
 修改 /etc/subversion/config
 
 {% highlight shell %}
-global-ignores = *.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo
+global-ignores = \*.o \*.lo \*.la \*.al \*.libs \*.so \*.so.\[0-9\]\* \*.a \*.pyc \*.pyo
 {% endhighlight %}
 取消注释，删除=号后面的
 

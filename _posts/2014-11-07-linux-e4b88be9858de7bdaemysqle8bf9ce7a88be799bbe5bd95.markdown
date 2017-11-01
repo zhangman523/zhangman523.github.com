@@ -6,7 +6,9 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=30
 slug: linux-%e4%b8%8b%e9%85%8d%e7%bd%aemysql%e8%bf%9c%e7%a8%8b%e7%99%bb%e5%bd%95
 title: Linux 下配置mysql远程登录
-wordpress_id: 30
+tags:
+- Linux
+- Mysql
 categories:
 - Linux
 ---

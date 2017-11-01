@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=86
 slug: android-listview-%e8%a7%a3%e5%86%b3%e6%bb%91%e5%8a%a8%e5%8f%98%e9%bb%91
 title: android listView 解决滑动变黑
-wordpress_id: 86
+tags:
+- Android
 categories:
 - Android 笔记
 ---

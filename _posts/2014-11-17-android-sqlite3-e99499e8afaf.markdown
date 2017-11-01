@@ -6,7 +6,9 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=63
 slug: android-sqlite3-%e9%94%99%e8%af%af
 title: Android sqlite3 错误
-wordpress_id: 63
+tags:
+- Android
+- sqlite3
 categories:
 - Android 笔记
 ---

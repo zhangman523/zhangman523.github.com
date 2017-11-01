@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=132
 slug: android-studio-v4%e5%8c%85%e5%86%b2%e7%aa%81%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88
 title: android studio v4包冲突解决方案
-wordpress_id: 132
+tags:
+- Android
 categories:
 - Android 笔记
 ---

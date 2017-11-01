@@ -6,7 +6,9 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=45
 slug: linux-%e4%b8%8b-tomcat-%e7%ab%af%e5%8f%a3%e4%bf%ae%e6%94%b9
 title: Linux 下 tomcat 端口修改
-wordpress_id: 45
+tags:
+- Linux
+- tomcat
 categories:
 - Linux
 ---

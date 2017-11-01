@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=83
 slug: ssh-%e7%99%bb%e5%bd%95%e7%bc%93%e6%85%a2%e9%97%ae%e9%a2%98%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88
 title: SSH 登录缓慢问题解决方案
-wordpress_id: 83
+tags:
+- Linux
 categories:
 - Linux
 ---

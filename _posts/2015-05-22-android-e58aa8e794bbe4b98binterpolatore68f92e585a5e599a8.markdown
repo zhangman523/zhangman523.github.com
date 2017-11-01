@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=129
 slug: android-%e5%8a%a8%e7%94%bb%e4%b9%8binterpolator%e6%8f%92%e5%85%a5%e5%99%a8
 title: Android 动画之Interpolator插入器
-wordpress_id: 129
+tags:
+- Android
 categories:
 - Android 笔记
 ---

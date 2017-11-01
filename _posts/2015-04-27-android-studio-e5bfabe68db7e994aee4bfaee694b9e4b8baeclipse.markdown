@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=120
 slug: android-studio-%e5%bf%ab%e6%8d%b7%e9%94%ae%e4%bf%ae%e6%94%b9%e4%b8%baeclipse
 title: Android studio 快捷键修改为eclipse
-wordpress_id: 120
+tags:
+- Android
 categories:
 - Android 笔记
 ---

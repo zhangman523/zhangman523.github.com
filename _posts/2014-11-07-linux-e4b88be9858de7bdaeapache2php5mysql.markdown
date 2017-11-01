@@ -6,7 +6,11 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=26
 slug: linux-%e4%b8%8b%e9%85%8d%e7%bd%aeapache2php5mysql
 title: Linux 下配置apache2+php5+mysql
-wordpress_id: 26
+tags:
+- Linux
+- apache2
+- php5
+- Mysql
 categories:
 - Linux
 ---

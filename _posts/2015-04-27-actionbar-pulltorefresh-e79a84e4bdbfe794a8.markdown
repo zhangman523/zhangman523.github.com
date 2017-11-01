@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=110
 slug: actionbar-pulltorefresh-%e7%9a%84%e4%bd%bf%e7%94%a8
 title: actionbar-pulltorefresh 的使用
-wordpress_id: 110
+tags:
+- Android
 categories:
 - Android 笔记
 ---

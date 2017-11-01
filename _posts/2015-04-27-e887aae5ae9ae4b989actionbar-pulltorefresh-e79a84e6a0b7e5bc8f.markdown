@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=118
 slug: '%e8%87%aa%e5%ae%9a%e4%b9%89actionbar-pulltorefresh-%e7%9a%84%e6%a0%b7%e5%bc%8f'
 title: 自定义actionbar-pulltorefresh 的样式
-wordpress_id: 118
+tags:
+- Android
 categories:
 - Android 笔记
 ---

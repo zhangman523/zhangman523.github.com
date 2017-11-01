@@ -6,7 +6,8 @@ layout: post
 #link: http://www.zhangman523.com/wordpress/?p=141
 slug: android-textview-marquee
 title: Android TextView marquee
-wordpress_id: 141
+tags:
+- Android
 categories:
 - Android 笔记
 ---
