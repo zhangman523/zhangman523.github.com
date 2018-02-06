@@ -11,7 +11,7 @@ categories:
 - Android 笔记
 ---
 
-## Android 下拉加载 [LoadMoreViewLayout](https://github.com/zhangman523/LoadMoreViewLayou)
+## Android 下拉加载 [LoadMoreViewLayout](https://github.com/zhangman523/LoadMoreViewLayout)
 
 这个项目是作为 [Ultra Pull To Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh) 的`上拉加载`补充功能。
 
